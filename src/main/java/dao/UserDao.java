@@ -21,7 +21,7 @@ public class UserDao {
             "update users set username = ?, email = ?, password = ? where id = ? ";
 
     private static final String DELETE_USER_QUERY =
-            "delete * from users where id = ?";
+            "delete from users where id = ?";
 
     private static final String FIND_USERS_QUERY =
             "select * from users";
